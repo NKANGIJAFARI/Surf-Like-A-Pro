@@ -185,6 +185,17 @@
     max-width: 400px;
     padding-right: 75px;
   }
+
+  .header-aside__logo {
+    margin-top: -7px;
+    a {
+      img {
+        width: 122px;
+        height: 109px;
+        transform: rotate(90deg);
+      }
+    }
+  }
 }
 @media (max-width: 1200px) {
   .beach-slider__item-img {
@@ -235,8 +246,9 @@
 }
 @media (max-width: 1100px) {
   .header-aside__logo a img {
-    width: 114px;
-    height: 200px;
+    width: 122px;
+    height: 109px;
+    transform: rotate(90deg);
   }
   .header__slider-item {
     height: 100%;
@@ -361,6 +373,7 @@
   }
   .title span {
     font-size: 150px;
+    left: 10%;
   }
   .subtitle h3 {
     font-size: 32px;
@@ -427,6 +440,7 @@
         left: 113px;
         visibility: visible;
         opacity: 1;
+        margin-top: -20px;
       }
       .nav__btn {
         .close {

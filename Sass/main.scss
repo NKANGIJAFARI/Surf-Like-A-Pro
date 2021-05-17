@@ -27,10 +27,11 @@
     transform: rotate(180deg);
   }
 }
+
 .slider-item__info {
   position: absolute;
-  bottom: 6%;
-  right: 80px;
+  bottom: 2%;
+  right: 30px;
   text-align: right;
   &-suptitle {
     position: relative;
@@ -124,6 +125,7 @@
   text-align: center;
 
   border-right: 1px solid rgba(#fff, 0.25);
+
   &__logo {
     margin: 0;
     padding: 0;
