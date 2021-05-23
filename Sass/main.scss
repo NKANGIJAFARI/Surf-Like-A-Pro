@@ -3,6 +3,11 @@
 @import 'slick';
 
 /*****************     HEADER     ***********************/
+
+.surf__inner {
+  overflow-x: hidden;
+}
+
 .header__slider {
   &-item {
     height: 100vh;
@@ -541,7 +546,7 @@
     .surf__slide__inner {
       &-mask {
         background: rgba(0, 0, 0, 0.3);
-        transition: background 0.5s;
+        //transition: background 0.5s;
       }
       .btn-link {
         visibility: visible;
@@ -678,7 +683,6 @@ input[type='number'] {
   font-size: 40px;
   line-height: 36px;
   margin-top: -4px;
-
   text-transform: uppercase;
   background: transparent;
   border: 0;
