@@ -1182,7 +1182,7 @@ input[type='number'] {
     transform: rotate(90deg); }
   .header__slider-item {
     height: 100%;
-    min-height: 720px; }
+    min-height: 100vh; }
   .header-map__svg {
     width: 600px;
     height: 295px; }

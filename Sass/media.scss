@@ -252,19 +252,12 @@
   }
   .header__slider-item {
     height: 100%;
-    min-height: 720px;
+    min-height: 100vh;
   }
   .header-map__svg {
     width: 600px;
     height: 295px;
   }
-  //   .slider-item__info {
-  //     right: 40px;
-  //   }
-  //   .slider-dots {
-  //     right: 30px;
-  //     top: 670px;
-  //   }
   .header__down-arrows {
     left: 150px;
   }
