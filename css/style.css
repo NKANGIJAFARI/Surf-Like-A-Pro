@@ -1335,7 +1335,9 @@ input[type='number'] {
   .shop-product__sufboard-descr--3 .shop-product__sufboard-descr__text {
     margin-left: 50px; }
     .shop-product__sufboard-descr--3 .shop-product__sufboard-descr__text:before {
-      left: -35px; } }
+      left: -35px; }
+  .slider-item__info {
+    bottom: 16%; } }
 
 @media (max-width: 650px) {
   .dots-box {

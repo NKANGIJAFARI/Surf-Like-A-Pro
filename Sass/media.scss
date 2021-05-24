@@ -445,6 +445,7 @@
       }
     }
   }
+
   .header__down-arrows {
     left: 20px;
     bottom: 110px;
@@ -464,6 +465,10 @@
     &:before {
       left: -35px;
     }
+  }
+
+  .slider-item__info {
+    bottom: 16%;
   }
 }
 @media (max-width: 650px) {
