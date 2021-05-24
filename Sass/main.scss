@@ -4,10 +4,6 @@
 
 /*****************     HEADER     ***********************/
 
-.surf__inner {
-  overflow-x: hidden;
-}
-
 .header__slider {
   &-item {
     height: 100vh;
@@ -264,10 +260,14 @@
 /*****************     SURF     ***********************/
 .surf {
   position: relative;
+  overflow-x: hidden;
   &__point {
     position: absolute;
     right: 0;
     top: 240px;
+  }
+
+  &__inner {
   }
 }
 

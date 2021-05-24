@@ -22,7 +22,7 @@ body {
   padding-bottom: 100px; }
   .title h1 {
     display: inline-block;
-    padding: 14px 0 0 300px;
+    padding: 14px 0 0 228px;
     position: relative;
     font-style: normal;
     font-weight: 800;
@@ -475,7 +475,8 @@ body {
 
 /*****************     SURF     ***********************/
 .surf {
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
   .surf__point {
     position: absolute;
     right: 0;
@@ -682,8 +683,7 @@ body {
   max-width: 600px;
   cursor: pointer; }
   .surf__slide:hover .surf__slide__inner-mask {
-    background: rgba(0, 0, 0, 0.3);
-    transition: background 0.5s; }
+    background: rgba(0, 0, 0, 0.3); }
   .surf__slide:hover .surf__slide__inner .btn-link {
     visibility: visible;
     opacity: 1;
