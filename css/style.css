@@ -1274,6 +1274,10 @@ input[type='number'] {
   .subtitle.right h4:before {
     right: -65px; } }
 
+@media (max-width: 900px) {
+  .slider-item__info {
+    bottom: 13%; } }
+
 @media (max-width: 820px) {
   .nav {
     margin: 30px 0;
@@ -1335,9 +1339,7 @@ input[type='number'] {
   .shop-product__sufboard-descr--3 .shop-product__sufboard-descr__text {
     margin-left: 50px; }
     .shop-product__sufboard-descr--3 .shop-product__sufboard-descr__text:before {
-      left: -35px; }
-  .slider-item__info {
-    bottom: 16%; } }
+      left: -35px; } }
 
 @media (max-width: 650px) {
   .dots-box {

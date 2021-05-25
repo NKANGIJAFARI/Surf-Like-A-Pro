@@ -383,6 +383,12 @@
     right: -65px;
   }
 }
+@media (max-width: 900px) {
+  .slider-item__info {
+    bottom: 13%;
+  }
+}
+
 @media (max-width: 820px) {
   .nav {
     margin: 30px 0;
@@ -465,10 +471,6 @@
     &:before {
       left: -35px;
     }
-  }
-
-  .slider-item__info {
-    bottom: 16%;
   }
 }
 @media (max-width: 650px) {
