@@ -1344,14 +1344,16 @@ input[type='number'] {
 @media (max-width: 765px) {
   .title span {
     font-size: 120px;
-    left: 4%; } }
+    left: 4%;
+    top: 10%; } }
 
 @media (max-width: 650px) {
   .slider-dots {
     max-width: 400px;
     padding: 0 10px;
     right: 0;
-    left: 10px; }
+    left: 10px;
+    top: 80%; }
   .dots-box {
     width: 100px; }
     .dots-box__number {
@@ -1500,7 +1502,8 @@ input[type='number'] {
     .title h1:before {
       width: 60px; }
   .title span {
-    font-size: 110px; }
+    font-size: 80px;
+    left: 15px; }
   .subtitle {
     margin-right: 10px; }
   .subtitle h3 {
