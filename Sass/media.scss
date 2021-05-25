@@ -473,6 +473,13 @@
     }
   }
 }
+@media (max-width: 765px) {
+  .title span {
+    font-size: 120px;
+    left: 4%;
+  }
+}
+
 @media (max-width: 650px) {
   //   .slider-dots {
   //     max-width: 450px;
@@ -668,6 +675,11 @@
         top: 0;
       }
     }
+  }
+
+  .title span {
+    font-size: 100px;
+    left: 3%;
   }
 }
 @media (max-width: 500px) {

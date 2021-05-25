@@ -1341,6 +1341,11 @@ input[type='number'] {
     .shop-product__sufboard-descr--3 .shop-product__sufboard-descr__text:before {
       left: -35px; } }
 
+@media (max-width: 765px) {
+  .title span {
+    font-size: 120px;
+    left: 4%; } }
+
 @media (max-width: 650px) {
   .dots-box {
     width: 100px; }
@@ -1478,7 +1483,10 @@ input[type='number'] {
     .beach-slider .subtitle.right h4 {
       position: absolute;
       left: 0;
-      top: 0; } }
+      top: 0; }
+  .title span {
+    font-size: 100px;
+    left: 3%; } }
 
 @media (max-width: 500px) {
   .title h1 {
