@@ -1610,7 +1610,8 @@ input[type='number'] {
   .header-aside__point {
     margin-top: 2px; }
   .header__slider-item {
-    min-height: 440px; }
+    min-height: 440px;
+    height: 100vh; }
   .slider-item__info-suptitle {
     font-size: 16px;
     line-height: 16px; }
