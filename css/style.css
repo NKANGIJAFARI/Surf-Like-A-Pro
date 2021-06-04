@@ -1359,8 +1359,8 @@ input[type='number'] {
     height: 260px; }
     .shop-descr .btn-link {
       position: absolute;
-      right: 20%;
-      top: 70%; }
+      top: 50%;
+      left: 50%; }
     .shop-descr__rating {
       display: flex; }
   .shop-product {
