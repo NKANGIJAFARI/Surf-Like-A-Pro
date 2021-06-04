@@ -1601,6 +1601,8 @@ input[type='number'] {
       .nav__inner .nav__link a img {
         max-width: 30px;
         max-width: 30px; }
+  .header-map {
+    top: 25px; }
   .header-aside__date {
     margin-top: 10px;
     font-size: 12px; }
@@ -1612,6 +1614,8 @@ input[type='number'] {
   .header__slider-item {
     min-height: 440px;
     height: 100vh; }
+  .slider-item__info {
+    bottom: 22%; }
   .slider-item__info-suptitle {
     font-size: 16px;
     line-height: 16px; }
