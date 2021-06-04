@@ -788,10 +788,7 @@
       display: none;
     }
   }
-  .header-aside__logo a img {
-    width: 90px;
-    height: 170px;
-  }
+
   .nav.active .nav__inner {
     left: 89px;
   }
@@ -812,6 +809,13 @@
         }
       }
     }
+  }
+
+  .header-aside__logo a img {
+    width: 90px;
+    height: 110px;
+    transform: rotate(0deg) translate(0px, 21px);
+    margin-bottom: 40px;
   }
 
   .header-map {

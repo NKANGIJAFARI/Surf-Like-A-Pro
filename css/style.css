@@ -1586,9 +1586,6 @@ input[type='number'] {
     justify-content: space-around; }
     .dots-box__name {
       display: none; }
-  .header-aside__logo a img {
-    width: 90px;
-    height: 170px; }
   .nav.active .nav__inner {
     left: 89px; }
   .nav__btn img {
@@ -1601,6 +1598,11 @@ input[type='number'] {
       .nav__inner .nav__link a img {
         max-width: 30px;
         max-width: 30px; }
+  .header-aside__logo a img {
+    width: 90px;
+    height: 110px;
+    transform: rotate(0deg) translate(0px, 21px);
+    margin-bottom: 40px; }
   .header-map {
     top: 25px; }
   .header-aside__date {
