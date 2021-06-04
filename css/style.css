@@ -887,7 +887,10 @@ input[type='number'] {
     text-align: initial; }
 
 .shop-product {
-  display: flex; }
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 .shop-product__sufboard {
   position: relative;
