@@ -456,6 +456,15 @@
     left: 20px;
     bottom: 110px;
   }
+
+  .slider-dots {
+    position: absolute;
+    top: 88%;
+    left: 2%;
+    width: 100%;
+    max-width: 600px;
+  }
+
   .shop-slider__item__inner {
     flex-direction: column;
   }
@@ -475,6 +484,10 @@
 
     &__rating {
       display: flex;
+    }
+
+    &__price {
+      margin: 0px 0 0 20px;
     }
   }
   .shop-product {

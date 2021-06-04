@@ -1348,6 +1348,12 @@ input[type='number'] {
   .header__down-arrows {
     left: 20px;
     bottom: 110px; }
+  .slider-dots {
+    position: absolute;
+    top: 88%;
+    left: 2%;
+    width: 100%;
+    max-width: 600px; }
   .shop-slider__item__inner {
     flex-direction: column; }
   .shop-descr {
@@ -1363,6 +1369,8 @@ input[type='number'] {
       left: 50%; }
     .shop-descr__rating {
       display: flex; }
+    .shop-descr__price {
+      margin: 0px 0 0 40px; }
   .shop-product {
     padding: 0 40px; }
   .shop-product__sufboard-descr--3 .shop-product__sufboard-descr__text {
