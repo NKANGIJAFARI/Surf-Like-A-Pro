@@ -870,7 +870,9 @@ input[type='number'] {
     margin: 30px 0 0 120px; }
     .shop-descr__rating img {
       display: inline-block;
-      margin-left: -24px; }
+      margin-left: -30px;
+      width: 60px;
+      height: 60px; }
       .shop-descr__rating img:first-child {
         margin-left: 0; }
   .shop-descr__price {
@@ -1350,7 +1352,14 @@ input[type='number'] {
     flex-direction: column; }
   .shop-descr {
     order: 2;
-    padding-top: 50px; }
+    padding-top: 50px;
+    display: flex; }
+    .shop-descr .btn-link {
+      position: absolute;
+      right: 20%;
+      top: 70%; }
+    .shop-descr__rating {
+      display: flex; }
   .shop-product {
     padding: 0 40px; }
   .shop-product__sufboard-descr--3 .shop-product__sufboard-descr__text {

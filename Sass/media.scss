@@ -462,6 +462,17 @@
   .shop-descr {
     order: 2;
     padding-top: 50px;
+    display: flex;
+
+    & .btn-link {
+      position: absolute;
+      right: 20%;
+      top: 70%;
+    }
+
+    &__rating {
+      display: flex;
+    }
   }
   .shop-product {
     padding: 0 40px;
