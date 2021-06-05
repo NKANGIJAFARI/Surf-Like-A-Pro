@@ -1230,7 +1230,7 @@ input[type='number'] {
   .beach-slider__item-img {
     width: 440px;
     height: 270px;
-    top: 280px; }
+    top: 330px; }
   .beach-slider__item .subtitle.right {
     margin-top: 320px; }
   .travel .btn-link {
@@ -1667,3 +1667,13 @@ input[type='number'] {
   .travel .title,
   .sleep .title {
     padding-bottom: 0; } }
+
+@media (max-width: 370px) {
+  .travel {
+    margin-left: -90px; }
+  .beach-slider__item-info {
+    padding: 0 0px 0px 120px; }
+  .subtitle.right {
+    margin-left: 119px; }
+  .beach-slider__item-img {
+    top: 302px; } }
