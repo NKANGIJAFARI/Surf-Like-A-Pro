@@ -2,6 +2,8 @@ body {
   font-family: 'Fira Sans', Arial, Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
   background: $bg;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 *,
 *:before,
